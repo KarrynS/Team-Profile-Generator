@@ -1,5 +1,6 @@
-//TDD for Employee
+//Testing for Employee
 
+const { it, expect } = require("@jest/globals");
 const Employee = require("../lib/Employee.js");
 
 describe("Employee", () => {
@@ -42,7 +43,13 @@ describe("Employee", () => {
         it("Able to get email from getEmail()", () => {
             const testEmail = "grace@fakemail.com";
             const employee = new Employee("Foo", 3, testEmail);
-            expect(employee.getEmail).toBe(testEmail); 
+            expect(employee.getEmail()).toBe(testEmail); 
         });
+
+        it("Able to return employee as the getRole()", () => {
+            const test = "Employee";
+            const employee = new Employee("Grace", 3, "grace@fakemail.com");
+            expect(employee.getRole()).toBe(test);
+        })
     })
 })
