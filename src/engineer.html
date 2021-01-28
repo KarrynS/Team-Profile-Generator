@@ -1,13 +1,14 @@
 <div class="col mb-4">
     <div class="card text-white bg-dark" style="width: 18rem;">
         <div class="card-body">
-            <h5 class="card-title"> Name </h5>
-            <p class="card-text"><i class="fas fa-glasses mr-2"></i>Role</p>
+            <h5 class="card-title"> ${teamMember.name} </h5>
+            <p class="card-text"><i class="fas fa-glasses mr-2"></i>Engineer</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">ID: </li>
-                <li class="list-group-item">Email: </li>
-                <li class="list-group-item" >Githib: <a href="https://github.com/****" target="_blank"></a></li>
+                <li class="list-group-item">ID: ${teamMember.id}</li>
+                <li class="list-group-item" ></li>
+                <li class="list-group-item" ><a href="mailto: ${teamMember.email}" target="_blank">Email: ${teamMember.email}</a></li>
+                <li class="list-group-item" >Githib: <a href="https://github.com/${response.github}" target="_blank">${response.github}</a></li>
             </ul>
     </div>
 </div>
