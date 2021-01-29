@@ -18,9 +18,9 @@ Clone the package and inside the package directory install (npm i) all dependenc
 ## Usage
 After installation, enter 'node index.js' into the command line to run the application.
 
-<img src="Assets/Sreenshot.png"/>
+<img src="assets/TeamProfileGenerato.png"/>
 <br>
-<a href="https://drive.google.com/file/d/1Yn6FGISPUsY4ghxPcTrzX2K2YgrYoVa9/view"> Link to Demo Video</a>
+<a href=" "> Link to Demo Video</a>
 
 ## License
 
