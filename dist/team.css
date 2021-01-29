@@ -1,0 +1,18 @@
+/*Styling for generated HTML*/
+
+.display-4 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+}
+
+.list-group {
+    color: black;
+}
+
+.mb-4 {
+ margin: auto;
+ justify-content: center;
+}
+
