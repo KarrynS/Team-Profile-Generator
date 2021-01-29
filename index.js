@@ -25,7 +25,7 @@ function createManager(){
             type: "input", 
             name: "id", 
             message: "What is your employee id?", 
-            vaildate: async (input) => {
+            validate: async (input) => {
                 if (isNaN(input)) {
                     return "Please enter an employee number";
                 }
@@ -118,7 +118,7 @@ function createEngineer() {
             type: "input", 
             name: "id", 
             message: "What is engineer's employee id?", 
-            vaildate: async (input) => {
+            validate: async (input) => {
                 if (isNaN(input)) {
                     return "Please enter an employee number";
                 }
@@ -225,7 +225,7 @@ function createIntern() {
    //render employee cards using their role
    function generateEmployeeCards(newTeam) {
     let cards = [];
-    let cardHtml = '';
+    let cardHtml;
     newTeam.forEach((teamMember) => {
         if (teamMember.getRole() === "Manager") {
             cardHtml = 
@@ -319,8 +319,6 @@ function generateHtml(newTeam) {
 }
 
 function finalTeam() {
-    console.log(newTeam);
-    
     generateHtml(newTeam);
 
      //render HTML template to receive generated employee cards
