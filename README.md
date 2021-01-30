@@ -20,7 +20,7 @@ After installation, enter 'node index.js' into the command line to run the appli
 
 <img src="assets/TeamProfileGenerato.png"/>
 <br>
-<a href=" "> Link to Demo Video</a>
+<a href="https://drive.google.com/file/d/1fqF2mEPmRHRuVSu6hO4JE-PU1tXC0jmi/view"> Link to Demo Video</a>
 
 ## License
 
