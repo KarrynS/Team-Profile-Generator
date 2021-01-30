@@ -280,7 +280,6 @@ function createIntern() {
         }
         cards.push(cardHtml);
     })
-    
     return cards.join('');
 }
 
